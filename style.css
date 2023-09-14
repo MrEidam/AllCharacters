@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-size: 15pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background: #333;
+}
+div{
+  position: relative;
+  word-wrap: break-word;
+  width: 90%;
+  background: rgb(178, 174, 137);
+  color: #030303;
+  border-radius: 1rem;
+  padding: 1rem;
+  overflow: hidden;
+  filter: drop-shadow(0 0 30px #666)
+}
